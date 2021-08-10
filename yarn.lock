@@ -1361,7 +1361,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-actions@6.3.7", "@storybook/addon-actions@latest":
+"@storybook/addon-actions@6.3.7":
   version "6.3.7"
   resolved "https://npm.netsells.tools/@storybook%2faddon-actions/-/addon-actions-6.3.7.tgz#b25434972bef351aceb3f7ec6fd66e210f256aac"
   integrity sha512-CEAmztbVt47Gw1o6Iw0VP20tuvISCEKk9CS/rCjHtb4ubby6+j/bkp3pkEUQIbyLdHiLWFMz0ZJdyA/U6T6jCw==
@@ -1555,7 +1555,7 @@
     prop-types "^15.7.2"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.3.7", "@storybook/addons@^6.3.0", "@storybook/addons@latest":
+"@storybook/addons@6.3.7", "@storybook/addons@^6.3.0":
   version "6.3.7"
   resolved "https://npm.netsells.tools/@storybook%2faddons/-/addons-6.3.7.tgz#7c6b8d11b65f67b1884f6140437fe996dc39537a"
   integrity sha512-9stVjTcc52bqqh7YQex/LpSjJ4e2Czm4/ZYDjIiNy0p4OZEx+yLhL5mZzMWh2NQd6vv+pHASBSxf2IeaR5511A==
