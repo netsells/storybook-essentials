@@ -29,3 +29,4 @@ jobs:
                   delete-branch: true
                   title: Run yarn upgrade
                   commit-message: "chore(deps): Run yarn upgrade"
+                  reviewers: samturrell
