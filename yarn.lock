@@ -1492,15 +1492,15 @@
     ts-dedent "^2.0.0"
 
 "@storybook/addon-jest@latest":
-  version "6.3.7"
-  resolved "https://npm.netsells.tools/@storybook%2faddon-jest/-/addon-jest-6.3.7.tgz#75033a4fa6c42747c4eda8b58d8486ade6363ff8"
-  integrity sha512-K7iKi8SK9RojJoSWB0vdk0XwcR4GFERRFBSZAIQfzDmrswWChfubetCGQA7C1eSAl4MOXl1rDorESO0c91wo2g==
+  version "6.3.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-jest/-/addon-jest-6.3.8.tgz#7c8ec7288d69dc07fcdb2c4ab1817512bbd1a742"
+  integrity sha512-qB4aky4J5PySc32EvOU8rNSPGR53WwvrKaHr5N1guRUIHNuct/rx39sFrwcZVOXi5X55BWsRwhCnPiA3Zh298A==
   dependencies:
-    "@storybook/addons" "6.3.7"
-    "@storybook/api" "6.3.7"
-    "@storybook/components" "6.3.7"
-    "@storybook/core-events" "6.3.7"
-    "@storybook/theming" "6.3.7"
+    "@storybook/addons" "6.3.8"
+    "@storybook/api" "6.3.8"
+    "@storybook/components" "6.3.8"
+    "@storybook/core-events" "6.3.8"
+    "@storybook/theming" "6.3.8"
     core-js "^3.8.2"
     global "^4.4.0"
     react-sizeme "^3.0.1"
