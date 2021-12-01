@@ -1355,7 +1355,7 @@
   resolved "https://npm.netsells.tools/@popperjs%2fcore/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
-"@storybook/addon-a11y@^6.4.0":
+"@storybook/addon-a11y@6.4.1":
   version "6.4.1"
   resolved "https://npm.netsells.tools/@storybook%2faddon-a11y/-/addon-a11y-6.4.1.tgz#6076cd7ae8b2b614dfe428f17563ea0d4ea8e39d"
   integrity sha512-Ow2tthtyYI2Uz47Sg1MUKjdSQeHOpDMPOM7GIEoOh7M93+rYlGpoWlm4rA9qg1M+FKT9tyQttCNxiFfv1IqahQ==
@@ -1490,7 +1490,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-essentials@^6.4.1":
+"@storybook/addon-essentials@6.4.1":
   version "6.4.1"
   resolved "https://npm.netsells.tools/@storybook%2faddon-essentials/-/addon-essentials-6.4.1.tgz#3baf3de0dc54f51c0818c0890fdbbef475580c92"
   integrity sha512-KFANiSYPT0WKdGG17L9tuSIeaFthwtBaU5XWZs8G8vSQW85BjIXSwYrDOldIhgIl3NncMFQyLuzVz0KzFefwaQ==
@@ -1510,7 +1510,7 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-jest@^6.4.0":
+"@storybook/addon-jest@6.4.1":
   version "6.4.1"
   resolved "https://npm.netsells.tools/@storybook%2faddon-jest/-/addon-jest-6.4.1.tgz#244a801d3b8d54546f14bd9cefed6a76e57107f1"
   integrity sha512-VIS/c1epUzbCv33FoQFMv/+CyKJU5f/ZRUF76b+nFe0W4URuPbqN0ivXO5khVgm+IkIAZzrnNXUeD9zlJrgeGA==
@@ -1526,7 +1526,7 @@
     regenerator-runtime "^0.13.7"
     upath "^1.2.0"
 
-"@storybook/addon-links@^6.4.1":
+"@storybook/addon-links@6.4.1":
   version "6.4.1"
   resolved "https://npm.netsells.tools/@storybook%2faddon-links/-/addon-links-6.4.1.tgz#cfa9d1abd78142534b3996511067a68dc196a480"
   integrity sha512-nDvfykgptOMVcuREM9AQDRJftV7Zv/OnU2jjkaDC/uo3huiLTKqdKjXI+ubVaBp38gXjAq3B8pBEju5JLi2nzg==
@@ -2134,7 +2134,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/theming@6.4.1", "@storybook/theming@^6.4.0":
+"@storybook/theming@6.4.1":
   version "6.4.1"
   resolved "https://npm.netsells.tools/@storybook%2ftheming/-/theming-6.4.1.tgz#c31dae971573107f49742d7c56607313231f6865"
   integrity sha512-950JtDwBB9MjdBVwoapdoY00jaLrrpdI5eXBy2XvQFMJQpsbSoS1cSpuqTH8mPoA4ZEXt5d8fqd+AZEFe2fAOw==
@@ -2186,7 +2186,7 @@
     resolve-from "^5.0.0"
     store2 "^2.12.0"
 
-"@storybook/vue@^6.4.0":
+"@storybook/vue@6.4.1":
   version "6.4.1"
   resolved "https://npm.netsells.tools/@storybook%2fvue/-/vue-6.4.1.tgz#6fff2b73f93af3025207971891b4076aec765933"
   integrity sha512-1cym9XOt5jMVHwanuNV8bWfaG/7SvqmewA6gP1lM9EQ0Iga4sEndPAaTxqLUyAWx1l04sAnSJV45jdx4747dUw==
