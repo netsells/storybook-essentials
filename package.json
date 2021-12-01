@@ -10,7 +10,7 @@
     "@storybook/addon-essentials": "^6.4.1",
     "@storybook/addon-jest": "^6.4.0",
     "@storybook/addon-links": "^6.4.1",
-    "@storybook/theming": "^6.4.0",
+    "@storybook/theming": "^6.4.1",
     "@storybook/vue": "^6.4.0"
   }
 }
