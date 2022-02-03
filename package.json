@@ -11,6 +11,6 @@
     "@storybook/addon-jest": "6.4.17",
     "@storybook/addon-links": "6.4.17",
     "@storybook/theming": "6.4.17",
-    "@storybook/vue": "6.4.17"
+    "@storybook/vue": "6.4.18"
   }
 }
