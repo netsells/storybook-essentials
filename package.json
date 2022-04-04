@@ -1,6 +1,6 @@
 {
   "name": "@netsells/storybook-essentials",
-  "version": "6.4.19",
+  "version": "6.4.20",
   "main": "index.js",
   "repository": "https://github.com/netsells/storybook-essentials",
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
