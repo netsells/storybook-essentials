@@ -6,11 +6,11 @@
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "@storybook/addon-a11y": "6.4.20",
-    "@storybook/addon-essentials": "6.4.20",
-    "@storybook/addon-jest": "6.4.20",
-    "@storybook/addon-links": "6.4.20",
-    "@storybook/theming": "6.4.20",
-    "@storybook/vue": "6.4.20"
+    "@storybook/addon-a11y": "6.4.21",
+    "@storybook/addon-essentials": "6.4.21",
+    "@storybook/addon-jest": "6.4.21",
+    "@storybook/addon-links": "6.4.21",
+    "@storybook/theming": "6.4.21",
+    "@storybook/vue": "6.4.21"
   }
 }
