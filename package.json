@@ -6,7 +6,7 @@
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "@storybook/addon-a11y": "6.5.3",
+    "@storybook/addon-a11y": "6.5.4",
     "@storybook/addon-essentials": "6.5.3",
     "@storybook/addon-jest": "6.5.3",
     "@storybook/addon-links": "6.5.3",
