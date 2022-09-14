@@ -9,7 +9,7 @@
     "@storybook/addon-a11y": "6.5.10",
     "@storybook/addon-essentials": "6.5.10",
     "@storybook/addon-jest": "6.5.10",
-    "@storybook/addon-links": "6.5.10",
+    "@storybook/addon-links": "6.5.11",
     "@storybook/theming": "6.5.10",
     "@storybook/vue": "6.5.10"
   },
