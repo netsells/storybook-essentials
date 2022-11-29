@@ -2,7 +2,7 @@
   "name": "@netsells/storybook-essentials",
   "version": "6.5.13",
   "main": "index.js",
-  "repository": "https://github.com/netsells/storybook-essentials",
+  "repository": "https://github.com/netsells/storybook-essentials/tree/main/packages/vue",
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
   "license": "MIT",
   "dependencies": {

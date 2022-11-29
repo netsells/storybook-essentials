@@ -1,7 +1,16 @@
 version: 2
 updates:
     - package-ecosystem: npm
-      directory: "/"
+      directory: "/packages/vue"
+      schedule:
+          interval: daily
+      open-pull-requests-limit: 10
+      target-branch: main
+      reviewers:
+          - samturrell
+
+    - package-ecosystem: npm
+      directory: "/pacakges/vue3"
       schedule:
           interval: daily
       open-pull-requests-limit: 10

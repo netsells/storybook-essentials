@@ -3,15 +3,26 @@ name: NPM Publish
 on: push
 
 jobs:
-    publish:
-        name: NPM Publish
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v1
-            - uses: actions/setup-node@v1
-              with:
-                  node-version: 12
-            - uses: JS-DevTools/npm-publish@v1
-              with:
-                  token: ${{ secrets.NPM_TOKEN }}
-                  access: public
+  publish:
+    name: NPM Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: 'Publish vue'
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          access: public
+          package: ./packages/vue/package.json
+
+      - name: 'Publish vue3'
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          access: public
+          package: ./packages/vue3/package.json

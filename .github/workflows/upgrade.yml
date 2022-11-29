@@ -3,30 +3,52 @@ name: Upgrade Dependencies
 on: workflow_dispatch
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
 
-            # Read node version from `.nvmrc` file
-            - id: nvmrc
-              uses: browniebroke/read-nvmrc-action@v1
+      # Read node version from `.nvmrc` file
+      - id: nvmrc
+        uses: browniebroke/read-nvmrc-action@v1
 
-            - uses: actions/setup-node@v1
-              with:
-                  # use the output from the action
-                  node-version: '${{ steps.nvmrc.outputs.node_version }}'
+      - uses: actions/setup-node@v1
+        with:
+          # use the output from the action
+          node-version: '${{ steps.nvmrc.outputs.node_version }}'
 
-            # Run `yarn upgrade`
-            - uses: browniebroke/yarn-upgrade-action@v1
+      # Run `yarn upgrade`
+      - run: yarn
+        shell: bash
+        working-directory: ./packages/vue
 
-            # Open a pull request if there are any changes
-            - name: Create Pull Request
-              uses: peter-evans/create-pull-request@v3
-              with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: update/yarn-upgrade
-                  delete-branch: true
-                  title: Run yarn upgrade
-                  commit-message: "chore(deps): Run yarn upgrade"
-                  reviewers: samturrell
+      - run: yarn upgrade
+        shell: bash
+        working-directory: ./packages/vue
+
+      - run: npx yarn-deduplicate yarn.lock
+        shell: bash
+        working-directory: ./packages/vue
+
+      - run: yarn
+        shell: bash
+        working-directory: ./packages/vue3
+
+      - run: yarn upgrade
+        shell: bash
+        working-directory: ./packages/vue3
+
+      - run: npx yarn-deduplicate yarn.lock
+        shell: bash
+        working-directory: ./packages/vue3
+
+      # Open a pull request if there are any changes
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update/yarn-upgrade
+          delete-branch: true
+          title: Run yarn upgrade
+          commit-message: "chore(deps): Upgraded dependencies"
+          reviewers: samturrell
