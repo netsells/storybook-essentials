@@ -1,17 +1,17 @@
 {
   "name": "@netsells/storybook-essentials-vue3",
-  "version": "6.5.13",
+  "version": "6.5.14",
   "main": "index.js",
   "repository": "https://github.com/netsells/storybook-essentials/tree/main/packages/vue3",
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
   "license": "MIT",
   "dependencies": {
-    "@storybook/addon-a11y": "6.5.13",
-    "@storybook/addon-essentials": "6.5.13",
-    "@storybook/addon-jest": "6.5.13",
-    "@storybook/addon-links": "6.5.13",
-    "@storybook/theming": "6.5.13",
-    "@storybook/vue3": "6.5.13"
+    "@storybook/addon-a11y": "6.5.14",
+    "@storybook/addon-essentials": "6.5.14",
+    "@storybook/addon-jest": "6.5.14",
+    "@storybook/addon-links": "6.5.14",
+    "@storybook/theming": "6.5.14",
+    "@storybook/vue3": "6.5.14"
   },
   "files": [
     "./index.js"
