@@ -22,7 +22,7 @@ jobs:
         shell: bash
         working-directory: ./packages/vue
 
-      - run: yarn upgrade
+      - run: yarn upgrade --scope @storybook --latest
         shell: bash
         working-directory: ./packages/vue
 
@@ -34,7 +34,7 @@ jobs:
         shell: bash
         working-directory: ./packages/vue3
 
-      - run: yarn upgrade
+      - run: yarn upgrade --scope @storybook --latest
         shell: bash
         working-directory: ./packages/vue3
 
