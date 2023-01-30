@@ -1,6 +1,6 @@
 {
   "name": "@netsells/storybook-essentials-vue3",
-  "version": "6.5.15",
+  "version": "6.5.16",
   "main": "index.js",
   "repository": "https://github.com/netsells/storybook-essentials/tree/main/packages/vue3",
   "author": "Sam Turrell <sam.turrell@netsells.co.uk>",
